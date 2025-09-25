@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚦 Laporan Lalin Per Hari
 
-## Getting Started
+Aplikasi frontend untuk menampilkan laporan lalu lintas harian berdasarkan metode pembayaran (Tunai, E-Toll, FLO, KTP, dan gabungan). Dibuat menggunakan Next.js
 
-First, run the development server:
+## ✨ Fitur
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📊 Dashboard
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Grafik transaksi berdasarkan metode pembayaran
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Grafik transaksi per shift
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Grafik transaksi per gerbang
 
-## Learn More
+## 📑 Tab Laporan Harian
 
-To learn more about Next.js, take a look at the following resources:
+Tunai
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+E-Toll
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+FLO
 
-## Deploy on Vercel
+KTP
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Keseluruhan
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Gabungan (E-Toll + Tunai + FLO)
+
+## ⚙️ Master Data — CRUD Gerbang
+
+Halaman Master Gerbang digunakan untuk mengelola data gerbang tol yang akan dipakai di laporan.
+
+➕ Tambah Gerbang Baru
+
+Pilih Ruas / Cabang (hanya bisa dipilih dari daftar berikut):
+
+- Cawang
+- Cilacap
+- Gombong
+- Kebumen
+- Jogja Solo
+- Solo Timur
+- Semarang
+
+⚠️ Catatan: Input ruas/cabang tidak bisa ditulis manual, hanya bisa dipilih dari opsi yang tersedia (dummyData).
