@@ -14,14 +14,6 @@ const dummyData = [
         "NamaCabang": "Cawang",
     },
     {
-        "IdCabang": 11,
-        "NamaCabang": "Cawang",
-    },
-    {
-        "IdCabang": 12,
-        "NamaCabang": "Cilacap",
-    },
-    {
         "IdCabang": 12,
         "NamaCabang": "Cilacap",
     },
@@ -32,10 +24,6 @@ const dummyData = [
     {
         "IdCabang": 14,
         "NamaCabang": "Kebumen",
-    },
-    {
-        "IdCabang": 15,
-        "NamaCabang": "Jogja Solo",
     },
     {
         "IdCabang": 15,
